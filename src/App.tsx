@@ -1,12 +1,19 @@
 import React from "react";
-import Header from "./components/Header";
-import Home from "./components/Home";
+
+import { Routes, Route } from "react-router-dom";
+
+// import pages
+import LandingPage from "./pages/LandingPage";
+import Posts from "./pages/Posts";
+import PostDetails from "./pages/PostDetails";
+
 const App = () => {
   return (
-    <>
-      <Header />
-      <Home />
-    </>
+    <Routes>
+      <Route path="/" element={<LandingPage />} />
+      <Route path="/posts" element={<Posts />} />
+      <Route path="/post" element={<PostDetails />} />
+    </Routes>
   );
 };
 

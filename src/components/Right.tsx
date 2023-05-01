@@ -54,7 +54,7 @@ const Right = () => {
         <CardHeader
           action={
             <img
-              src="https://media.licdn.com/dms/image/C560BAQG7aztr7LioPg/company-logo_200_200/0/1611926569881?e=1681344000&v=beta&t=jKTFCut8BGORhl-hELuREZwijsmnmRLPiFYRQIzkYuo"
+              src="https://www.captiosusaxons.com/assets/img/logoCap-axons.png"
               alt="image1"
               style={{ width: "80px" }}
             />
